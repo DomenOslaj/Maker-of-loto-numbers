@@ -16,7 +16,7 @@ def loto_length(length):            # makes random int numbers and put them to t
           break
 
         random_num = random.randint( 0, 50 )
-        if random_num not in loto_list:               #if not yet it loto_list, append it now.
+        if random_num not in loto_list:               #if not yet in loto_list, append it now.
             loto_list.append(random_num)
 
     return loto_list
